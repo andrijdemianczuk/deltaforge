@@ -2,6 +2,7 @@ from databricks.connect import DatabricksSession
 from pyspark.sql.types import *
 from format.DeltaDataframeHelper import DeltaDataframeHelper
 
+# Only used for testing with databricks connect. You can use a normal spark session instead.
 cluster_profile = "ad-dbx-small"
 spark = DatabricksSession.builder.profile(cluster_profile).getOrCreate()
 

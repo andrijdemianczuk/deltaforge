@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: deltaforge
-Version: 1.2.0
+Version: 1.2.1
 Summary: Support common PySpark operations on Delta
 Author-email: Andrij Demianczuk <andrij.demianczuk@databricks.com>
 License:                                  Apache License

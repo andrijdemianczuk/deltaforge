@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "deltaforge"
-version = "1.2.0"
+version = "1.2.1"
 description = "Support common PySpark operations on Delta"
 readme = "README.md"
 authors = [{ name = "Andrij Demianczuk", email = "andrij.demianczuk@databricks.com" }]
@@ -30,7 +30,7 @@ Homepage = "https://www.databricks.com/"
 realpython = "reader.__main__:main"
 
 [tool.bumpver]
-current_version = "1.2.0"
+current_version = "1.2.1"
 version_pattern = "MAJOR.MINOR.PATCH"
 commit_message  = "Bump version {old_version} -> {new_version}"
 commit          = true

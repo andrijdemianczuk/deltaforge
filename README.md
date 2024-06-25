@@ -10,10 +10,10 @@ You can easily install Delta Forge from [PyPi](https://pypi.org):
 pip install deltaforge
 ```
 ## How to use
-The library is mostly used as an instantiated object. Once you have an instance, you can call any of the class's behaviors or attributes. New classed will be added on a regular basis.
+The library is mostly used as an instantiated object. Once you have an instance, you can call any of the class behaviors or attributes. New classed will be added on a regular basis.
 
 ```python
-from deltaforge.format.DeltaDataframeHelper import DeltaDataframeHelper
+from deltaforge.DeltaDataframeHelper import DeltaDataframeHelper
 
 # Instance the DeltaDatafameHelper object
 dfh = DeltaDataframeHelper()

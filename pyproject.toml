@@ -10,7 +10,7 @@ readme = "README.md"
 authors = [{ name = "Andrij Demianczuk", email = "andrij.demianczuk@databricks.com" }]
 license = { file = "LICENSE" }
 classifiers = [
-    "License :: OSI Approved :: Apache Commons License",
+    "License :: OSI Approved :: Apache Software License",
     "Programming Language :: Python",
     "Programming Language :: Python :: 3",
 ]

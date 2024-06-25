@@ -1,6 +1,6 @@
 from databricks.connect import DatabricksSession
 from pyspark.sql.types import *
-from deltaformat.DeltaDataframeHelper import DeltaDataframeHelper
+from deltaforge.DeltaDataframeHelper import DeltaDataframeHelper
 
 
 # Only used for testing with databricks connect. You can use a normal spark session instead.

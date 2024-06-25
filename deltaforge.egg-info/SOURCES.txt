@@ -2,12 +2,12 @@ LICENSE
 MANIFEST.in
 README.md
 pyproject.toml
+deltaforge/DeltaDataframeHelper.py
+deltaforge/__init__.py
 deltaforge.egg-info/PKG-INFO
 deltaforge.egg-info/SOURCES.txt
 deltaforge.egg-info/dependency_links.txt
 deltaforge.egg-info/entry_points.txt
 deltaforge.egg-info/requires.txt
 deltaforge.egg-info/top_level.txt
-deltaformat/DeltaDataframeHelper.py
-deltaformat/__init__.py
 tests/test_DeltaDataframeHelper.py

@@ -23,7 +23,7 @@ def singleton(cls):
 @singleton
 class DeltaDataframeHelper:
     """
-    A class to deltaformat data for Delta Lake storage using PySpark. Assists users in formatting PySpark dataframes to be Delta deltaformat compliant
+    A class to deltaforge data for Delta Lake storage using PySpark. Assists users in formatting PySpark dataframes to be Delta deltaforge compliant
 
     ...
 
@@ -39,7 +39,7 @@ class DeltaDataframeHelper:
         Replaces all white spaces (" ") with underscores ("_") to support Delta Lake column naming conventions.
 
     substringReplaceData(self, col_names: list = ["none"])(df: DataFrame, findChars: str = ",", replaceChars: str = ".")
-        returns: A sub-function to be used to deltaformat numeric columns to be compatible with Delta Lake.
+        returns: A sub-function to be used to deltaforge numeric columns to be compatible with Delta Lake.
         Finds and replaces all instances of a substring with user-specified strings in the column names passed in. Can be used for more than numeric data
 
     castColTypes(self, col_names: list = ["none"])(df: DataFrame, targetType = tringType())
@@ -74,8 +74,8 @@ class DeltaDataframeHelper:
         Example
         -------
         # Format all columns in a dataframe (df) to Delta Lake column naming conventions
-        import delta-forge.deltaformat
-        dfh = deltaformat.DeltaFormatHelper.DeltaFormatHelper()
+        import delta-forge.deltaforge
+        dfh = deltaforge.DeltaFormatHelper.DeltaFormatHelper()
         df = dfh.formatDataframeCols(df=df)
 
         Raises
@@ -116,8 +116,8 @@ class DeltaDataframeHelper:
         Example
         -------
         # Replace all instances of a comma with a period in column labeled col1 and col2 in a dataframe (df)
-        import delta-forge.deltaformat
-        dfh = deltaformat.DeltaFormatHelper.DeltaFormatHelper()
+        import delta-forge.deltaforge
+        dfh = deltaforge.DeltaFormatHelper.DeltaFormatHelper()
         df = dfh.substringReplaceData(["col1","col2"])(df, ",", ".")
 
         Raises
@@ -160,8 +160,8 @@ class DeltaDataframeHelper:
         Example
         -------
         # Cast columns labeled col1 and col2 in a dataframe (df) to double type
-        import delta-forge.deltaformat
-        dfh = deltaformat.DeltaFormatHelper.DeltaFormatHelper()
+        import delta-forge.deltaforge
+        dfh = deltaforge.DeltaFormatHelper.DeltaFormatHelper()
         df = dfh.castColTypes(["col1","col2"])(df, DoubleType())
 
         Raises

@@ -207,7 +207,7 @@ License:                                  Apache License
         
 Project-URL: Homepage, https://www.databricks.com/
 Keywords: delta,pyspark,spark
-Classifier: License :: OSI Approved :: Apache Commons License
+Classifier: License :: OSI Approved :: Apache Software License
 Classifier: Programming Language :: Python
 Classifier: Programming Language :: Python :: 3
 Requires-Python: >=3.10

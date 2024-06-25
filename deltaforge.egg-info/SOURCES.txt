@@ -8,6 +8,6 @@ deltaforge.egg-info/dependency_links.txt
 deltaforge.egg-info/entry_points.txt
 deltaforge.egg-info/requires.txt
 deltaforge.egg-info/top_level.txt
-format/DeltaDataframeHelper.py
-format/__init__.py
+deltaformat/DeltaDataframeHelper.py
+deltaformat/__init__.py
 tests/test_DeltaDataframeHelper.py
